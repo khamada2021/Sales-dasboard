@@ -1,39 +1,41 @@
-# 🛒 Sales Dashboard Project
+# 🛒 Superstore Sales Dashboard
 
-An interactive dashboard to visualize and analyze Superstore sales data.
+This is an interactive dashboard built using **Dash by Plotly**, where you can visualize sales and profit trends from the Superstore dataset.
+
+---
 
 ## ✨ Features
-- 📊 Dynamic visualizations
-- 📈 Real-time data filtering
-- 🛠 Built with Plotly Dash
 
-## 🖥 Preview
-![Dashboard Screenshot](assets/dashboard_preview.png)
+- **Sales Trend**: Line graph showing monthly sales trends, filterable by region and date range.
+- **Profit by Category**: Bar chart showing total profit by product category, filterable by region.
 
-## 🚀 Installation
+---
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/khamada2021/Sales-dasboard.git
-    cd Sales-dasboard
-    ```
+## 🛠 Technologies Used
 
-2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+- **Dash**: Framework for building analytical web applications.
+- **Plotly**: For creating interactive graphs and plots.
+- **Pandas**: For data manipulation and analysis.
+- **Python**: Main programming language used to build the app.
 
-3. Run the app:
-    ```bash
-    python app.py
-    ```
+---
 
-## 📋 Requirements
+## 📦 Requirements
 
-- Python 3.8+
-- Dash
+To run this app, you need the following libraries:
+
 - Pandas
+- Dash
 - Plotly
 
-## 📄 License
-MIT License - see the [LICENSE](LICENSE) file for details.
+You can install them using the `requirements.txt` provided.
+
+---
+
+## ⚙️ Setup Instructions
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/khamada2021/Sales-dasboard.git
+cd Sales-dasboard
